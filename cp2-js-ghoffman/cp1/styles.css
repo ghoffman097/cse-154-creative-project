@@ -1,0 +1,108 @@
+/*
+  Grayson Hoffman
+  4/4/2022
+  AH Marina Wooden, Allan Tran
+
+  This is the syles.css file for both html pages. I was inspired by the
+  early 2000's websites and operating systems.
+*/
+
+body {
+  background-image: url("385739.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: #ffff00;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 150px;
+}
+
+h1, li {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+h1 {
+  font-size: 45pt;
+}
+
+a:link, a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#pictures {
+  font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
+  font-stretch: expanded;
+  font-size: 14pt;
+}
+
+h3 {
+  font-size: 16pt;
+  font-family:
+    'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    'Arial',
+    sans-serif;
+}
+
+h3 + blockquote {
+  font-family: "Impact", "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+  color: greenyellow;
+}
+
+figcaption {
+  font-size: 8pt;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h2 {
+  color: brown;
+  text-shadow: 2px 2px 2px black;
+}
+
+figure > h3 {
+  font-family: 'Rubik Wet Paint', cursive;
+  color: black;
+  font-size: 11pt;
+}
+
+.list, .row {
+  display: flex;
+}
+
+.list {
+  width: 76vw;
+  max-height: 200px;
+}
+
+body > section {
+  max-width: 82vh;
+}
+
+section > section {
+  width: 38vw;
+}
+
+.row {
+  height: 40vh;
+}
+
+header {
+  height: 7vh;
+}
+
+h4 {
+  width: 20vh;
+}
+
+.pic {
+  width: 9vw;
+  alt: "the cover/poster";
+}

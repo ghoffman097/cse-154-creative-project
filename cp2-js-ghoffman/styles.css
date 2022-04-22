@@ -1,0 +1,198 @@
+/*
+  Grayson Hoffman
+  4/4/2022
+  AH Marina Wooden, Allan Tran
+
+  This is the syles.css file for both html pages. I was inspired by the
+  early 2000's websites and operating systems.
+*/
+
+@font-face {
+  font-family: "windows";
+  src: url("w95fa/w95fa.woff") format('woff');
+}
+
+body {
+  background-color: #008080;
+}
+
+figcaption, h1, p {
+  font-family: 'windows', sans-serif;
+  color: #eff7f7;
+  font-size: 13pt;
+  text-align: center;
+}
+
+.icons, figure, footer, header, #movies section, #movies header, div {
+  display: flex;
+}
+
+.icons, .icons figure, #movies div {
+  align-items: center;
+}
+
+.icons {
+  width: 7%;
+  height: 96vh;
+  justify-content: flex-start;
+}
+
+.icons figure {
+  background-color: transparent;
+  justify-content: space-evenly;
+  width: 6vw;
+}
+
+.icons img {
+  height: 67%;
+  width: 70%;
+  margin-top: 3%;
+}
+
+.icons figure:hover {
+  background-color: rgba(228, 228, 228, 0.5);
+}
+
+.icons, #movies section {
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #c0c0c0;
+  bottom: 0;
+  height: 6.3%;
+  border-top: 3px solid #fdfdfd;
+}
+
+footer, header {
+  justify-content: space-between;
+}
+
+footer, #movies, #computer img, #read, #bin, #player {
+  position: fixed;
+}
+
+header, footer, #movies figure {
+  flex-direction: row;
+}
+
+footer, header, #movies section, #movies header {
+  left: 0;
+  width: 100%;
+}
+
+header, #movies section, #movies header, #player p {
+  position: relative;
+}
+
+header, #movies section, #movies header {
+  top: 0;
+}
+
+h1 {
+  font-size: 2.5vh;
+}
+
+h1, #movies header {
+  margin: 0;
+  padding: 0;
+}
+
+.icons, .icons figure, #movies section {
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+#movies {
+  left: 20vw;
+  top: 20vh;
+  width: 75%;
+  height: 65%;
+  border: 4px solid #c0c0c0;
+}
+
+#movies section {
+  background-color: white;
+  height: 95%;
+  align-items: flex-start;
+}
+
+#movies header {
+  background-color: #000080;
+  height: 5%;
+}
+
+#movies img {
+  height: 120px;
+}
+
+footer img, header img {
+  max-height: 100%;
+}
+
+#movies figcaption, p {
+  color: black;
+  margin: 10px;
+}
+
+footer > p {
+  font-size: 4vh;
+  justify-self: flex-end;
+  align-self: center;
+}
+
+#computer img, #read {
+  left: 30vw;
+  top: 30vh;
+}
+
+#read {
+  background-image: url("img/notepad.png");
+  left: 35vw;
+  top: 10vh;
+  background-size: contain;
+  padding: 30px;
+  width: 344px;
+  height: 208px;
+}
+
+#read, #player {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#read p {
+  font-family: 'Courier Prime', monospace;
+  font-size: 15px;
+}
+
+#bin {
+  left: 60%;
+  top: 22vh;
+}
+
+#player {
+  background-image: url("img/cd.png");
+  top: 60vh;
+  left: 63vw;
+  width: 304px;
+  height: 204px;
+}
+
+#player p {
+  left: 13%;
+  top: 46%;
+}
+
+p {
+  text-align: left;
+}
+
+#menu {
+  position: absolute;
+  bottom: 6.3%;
+  left: 0.7%;
+}
